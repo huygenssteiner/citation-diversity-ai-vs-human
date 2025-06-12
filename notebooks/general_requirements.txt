@@ -1,0 +1,30 @@
+# Core libraries
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+tqdm>=4.65
+
+# Plotting and visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# NLP & Transformers
+transformers>=4.41.1
+accelerate>=0.30
+torch>=2.3
+torchaudio>=2.3
+torchvision>=0.18
+
+# Gender detection
+gender-guesser>=0.4
+
+# OpenAlex client (you may be using API calls or a library wrapper)
+openalex  # If using a wrapper, otherwise handle requests manually
+
+# Jupyter notebook support
+ipykernel
+jupyter
+
+# Data handling, parsing, API
+requests>=2.31
+beautifulsoup4>=4.12  # If you scrape or parse HTML metadata
